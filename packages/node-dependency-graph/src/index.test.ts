@@ -1,4 +1,4 @@
-import { createDependencyGraph, PackageManifest } from "../lib";
+import { createDependencyGraph, PackageManifest } from "./";
 
 it("resolves basic graph", () => {
   const packageManifests = [

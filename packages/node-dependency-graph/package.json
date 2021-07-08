@@ -1,8 +1,7 @@
 {
   "name": "node-dependency-graph",
   "version": "2.0.4",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./src/index.ts",
   "module": "lib-modules/index.js",
   "repository": "github:VincentBailly/node-dependency-graph",
   "license": "MIT",

@@ -1,5 +1,5 @@
-import { installLocalStore } from "..";
-import type { Graph } from "..";
+import { installLocalStore } from "./";
+import type { Graph } from "./";
 import { directory } from "tempy";
 import * as fs from "fs";
 import * as path from "path";
