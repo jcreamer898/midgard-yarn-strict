@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2018",
+    "rootDir": "src",
+    "outDir": "lib",
+    "incremental": true,
+    "tsBuildInfoFile": "lib/.tsbuildinfo",
+    "composite": true
+  },
+  "include": ["./src"],
+  "references": [{ "path": "../node-dependency-graph/tsconfig.json" }]
+}

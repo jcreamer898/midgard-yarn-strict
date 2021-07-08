@@ -1,0 +1,33 @@
+{
+  "name": "midgard-yarn-strict",
+  "version": "1.2.2",
+  "description": "NodeJS package manager based on yarn and pnpm",
+  "bin": "./bin/index.js",
+  "bundledDependencies": [
+    "local-package-store",
+    "node-dependency-graph",
+    "yraf"
+  ],
+  "dependencies": {
+    "local-package-store": "1.2.1",
+    "node-dependency-graph": "2.0.4",
+    "yraf": "1.22.37"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.26",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentBailly/midgard-yarn-strict.git"
+  },
+  "author": "vincent.bailly@microsoft.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VincentBailly/midgard-yarn-strict/issues"
+  },
+  "homepage": "https://github.com/VincentBailly/midgard-yarn-strict#readme"
+}

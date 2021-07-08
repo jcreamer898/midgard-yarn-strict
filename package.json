@@ -1,0 +1,7 @@
+{
+  "name": "midgard-yarn-strict-project",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

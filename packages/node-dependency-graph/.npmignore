@@ -1,0 +1,7 @@
+.gitignore
+src/*
+tsconfig.*
+yarn.lock
+jest.config.js
+lib/.tsbuildinfo
+
